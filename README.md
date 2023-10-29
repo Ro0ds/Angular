@@ -1,6 +1,7 @@
 # Angular001
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+The main purpose of this repo is to learn Angular (JS/TS)
 
 ## Development server
 
