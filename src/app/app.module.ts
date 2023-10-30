@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { IfRenderComponent } from './compenent/if-render/if-render.component';
-import { EventosComponent } from './compenent/eventos/eventos.component';
-import { EmitterComponent } from './compenent/emitter/emitter.component';
-import { ChangeNumberComponent } from './compenent/change-number/change-number.component';
+import { IfRenderComponent } from './component/if-render/if-render.component';
+import { EventosComponent } from './component/eventos/eventos.component';
+import { EmitterComponent } from './component/emitter/emitter.component';
+import { ChangeNumberComponent } from './component/change-number/change-number.component';
+import { ListRenderComponent } from './component/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ChangeNumberComponent } from './compenent/change-number/change-number.c
     IfRenderComponent,
     EventosComponent,
     EmitterComponent,
-    ChangeNumberComponent
+    ChangeNumberComponent,
+    ListRenderComponent,
   ],
   imports: [
     BrowserModule
